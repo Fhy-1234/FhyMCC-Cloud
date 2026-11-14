@@ -1,0 +1,127 @@
+{
+  "config_version": 2,
+  "resource_dir": ".startmc",
+  "current_config": "程序预设配置",
+  "launchers": {
+    "HMCL": {
+      "path": "启动游戏.exe",
+      "update_url": "https://hmcl.huangyuhui.net/download/",
+      "manual_update": false,
+      "color": "#e1965f",
+      "border_color": "#e1965f"
+    },
+    "PCL2": {
+      "path": "备用启动器.exe",
+      "update_url": "https://meloong.com/PCL",
+      "manual_update": true,
+      "color": "#007bf4",
+      "border_color": "#007bf4"
+    },
+    "BakaXL": {
+      "path": "bakaxl.exe",
+      "update_url": "https://www.bakaxl.com/#download",
+      "manual_update": true,
+      "color": "#2eb8ed",
+      "border_color": "#2eb8ed"
+    },
+    "SJMCL": {
+      "path": "SJMCL.exe",
+      "update_url": "https://mc.sjtu.cn/sjmcl/downloads/",
+      "manual_update": false,
+      "color": "#6ea9fb",
+      "border_color": "#6ea9fb"
+    },
+    "旋律启动器": {
+      "path": "旋律启动器.exe",
+      "update_url": "",
+      "manual_update": true,
+      "color": "#cc00fa",
+      "border_color": "#cc00fa"
+    }
+  },
+  "func_buttons": [
+    {
+      "name": "卸载",
+      "icon": "",
+      "bg_color": "#e74c3c",
+      "border_color": "auto",
+      "action": {
+        "type": "run",
+        "target": "unins000.exe"
+      }
+    },
+    {
+      "name": "设置",
+      "icon": "",
+      "bg_color": "#f39c12",
+      "border_color": "auto",
+      "action": {
+        "type": "open_settings"
+      }
+    },
+    {
+      "name": "关于",
+      "icon": "",
+      "bg_color": "#1e3a8a",
+      "border_color": "auto",
+      "action": {
+        "type": "open_about"
+      }
+    },
+    {
+      "name": "公告",
+      "icon": "",
+      "bg_color": "#14b8a6",
+      "border_color": "auto",
+      "action": {
+        "type": "open_announcement"
+      }
+    },
+    {
+      "name": "退出",
+      "icon": "",
+      "bg_color": "#95a5a6",
+      "border_color": "auto",
+      "action": {
+        "type": "exit"
+      }
+    }
+  ],
+  "cloud": {
+    "repo_url": "",
+    "announcements_path": "announcements.json",
+    "changelog_path": "changelog.txt",
+    "configs_dir": "configs"
+  },
+  "background": {
+    "mode": "folder",
+    "folder": ".startmc\\bg",
+    "image": "",
+    "random": true,
+    "overlay_opacity": 0.3,
+    "scale_mode": "cover"
+  },
+  "modpack": {
+    "enabled": true,
+    "repo_url": "",
+    "display_name": "Fhy整合包",
+    "check_on_start": true,
+    "last_notified_version": "1.0.0"
+  },
+  "icons": {
+    "folder": ".startmc\\ico",
+    "mappings": {},
+    "launcher": {}
+  },
+  "settings": {
+    "auto_exit": true,
+    "check_update_on_start": true,
+    "ignore_missing": []
+  },
+  "debug": {
+    "enabled": false,
+    "title": "",
+    "about": "",
+    "website": ""
+  }
+}
